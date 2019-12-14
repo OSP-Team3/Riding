@@ -1,0 +1,63 @@
+create table Ride(
+ride_id int unsigned not null primary key,
+name char(20) not null,
+description char(200) not null,
+passenger int unsigned,
+min_height int unsigned,
+max_height int unsigned
+);
+
+create table Park(
+park_id int unsigned not null,
+ride_id int unsigned not null,
+primary key(park_id, ride_id),
+foreign key(ride_id) references Ride(ride_id)
+);
+
+create table Park_img(
+park_id int unsigned not null,
+img_link char(200) not null,
+foreign key(park_id) references Park(park_id),
+primary key(park_id, img_link)
+);
+
+create table User(
+user_id int unsigned not null auto_increment primary key,
+name char(20) not null,
+password char(20) not null,
+email char(20) not null,
+profile char(50)
+);
+
+create table User_like(
+user_id int unsigned not null,
+ride_id int unsigned not null,
+foreign key(user_id) references User(user_id),
+foreign key(ride_id) references Ride(ride_id),
+primary key(user_id, ride_id)
+);
+
+create table Review(
+user_id int unsigned not null,
+ride_id int unsigned not null,
+wet int unsigned not null,
+thrill int unsigned not null,
+op_time int unsigned not null,
+wait int unsigned not null,
+satisfy int unsigned not null,
+title char(100) not null,
+summary char(200) not null,
+review text(500) not null,
+date DATE not null,
+hash_tag char(200),
+foreign key(user_id) references User(user_id),
+foreign key(ride_id) references Ride(ride_id),
+primary key(user_id, ride_id)
+);
+
+create table HashTag(
+ride_id int unsigned not null,
+hash_tag char(20),
+count int unsigned not null,
+foreign key(ride_id) references Ride(ride_id)
+);
