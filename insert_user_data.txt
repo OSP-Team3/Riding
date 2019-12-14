@@ -1,0 +1,10 @@
+insert into User values ('anna', '1234', 'anna@gmail.com', 'C:/Users/joy/Desktop/profile_img/1.jpg');
+insert into User values ('banana', '1234', 'banan@gmail.com', 'C:/Users/joy/Desktop/profile_img/2.jpg');
+insert into User values ('camel', '1234', 'camel@gmail.com', 'C:/Users/joy/Desktop/profile_img/3.jpg');
+insert into User values ('drown', '1234', 'drown@gmail.com', 'C:/Users/joy/Desktop/profile_img/4.jpg');
+insert into User values ('ewhain', '1234', 'ewhain@gmail.com', 'C:/Users/joy/Desktop/profile_img/5.jpg');
+insert into User values ('future', '1234', 'future@gmail.com', 'C:/Users/joy/Desktop/profile_img/6.jpg');
+insert into User values ('guans', '1234', 'guans@gmail.com', 'C:/Users/joy/Desktop/profile_img/7.jpg');
+insert into User values ('horse', '1234', 'horse@gmail.com', 'C:/Users/joy/Desktop/profile_img/8.jpg');
+insert into User values ('innocent', '1234', 'innocent@gmail.com', 'C:/Users/joy/Desktop/profile_img/9.jpg');
+insert into User values ('jude', '1234', 'jude@gmail.com', 'C:/Users/joy/Desktop/profile_img/10.jpg');
