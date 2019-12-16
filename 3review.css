@@ -1,0 +1,381 @@
+#main_header {
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    text-align: center;
+    margin-left:22.5%;
+    padding: 20px;
+    width: 1000px;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: 40px auto;
+    text-align: left;
+}
+
+input[type=text], textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+.wrapper1 {
+    width: 960px;
+    height: 260px;
+    margin: 15px auto;
+    text-align: left;
+    Float: center;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-size: 20px;
+}
+
+#wrapper2 {
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+    Float: center;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    height: 500px;
+    text-size: 20px;
+}
+
+#selplace {
+    Align: left;
+    Width: 100px;
+    style: width:100px;
+    font-size: 22px;
+    display: inline-block;
+}
+
+#selplay {
+    Align: left;
+    style: width:100px;
+    font-size: 22px;
+    Width: 130px;
+    display: inline-block;
+}
+
+Input::placeholder {
+    color: black;
+    Font-size: 12px;
+}
+
+textarea::placeholder {
+    color: blue;
+    font-weight: bold;
+    Font-size: 12px;
+    font-style: italic;
+    text-Align: center;
+}
+
+#hashtag {
+    Height: 30px;
+    Width: 1000px;
+    text-Align: center;
+}
+
+/*버튼에 대한 디자인Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    /*버튼커버 When moving the mouse over the submit button, add a darker green color */
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+#reviewtext {
+    text-size: 40px;
+    margin-bottom: 2px;
+    Font-size: 16px;
+}
+
+#title {
+    Font-size: 16px;
+}
+
+#review {
+    Font-size: 16px;
+}
+
+#hashtagtext {
+    Float: center;
+    text-Align: left;
+    margin-top: 0px;
+    Font-size: 16px;
+}
+
+#btn1 {
+    float: right;
+    Margin-Right: 100px;
+}
+
+#btn2 {
+    Float: right;
+    Margin-Right: 30px;
+}
+
+#starlabel1 {
+    display: inline-block;
+}
+
+#starlabel2 {
+    display: inline-block;
+}
+
+#starlabel3 {
+    display: inline-block;
+}
+
+#starlabel4 {
+    display: inline-block;
+}
+
+#starlabel5 {
+    display: inline-block;
+}
+
+/*별표 디자인*/
+
+/*
+*{
+    margin: 0;
+    padding: 0;
+}
+*/
+.thrill {
+    height: 46px;
+}
+
+    .thrill:not(:checked) > input {
+        position: absolute; /*별표랑 라디오버튼 겹치기*/
+        top: -9999px;
+    }
+
+    .thrill:not(:checked) > label {
+        float: right;
+        width: 1em;
+        overflow: hidden;
+        white-space: nowrap;
+        cursor: pointer;
+        font-size: 30px;
+        color: #ccc;
+    }
+
+        .thrill:not(:checked) > label:before {
+            content: '★ ';
+        }
+
+    .thrill > input:checked ~ label {
+        color: #ffc700;
+    }
+
+    .thrill:not(:checked) > label:hover,
+    .thrill:not(:checked) > label:hover ~ label {
+        color: #deb217;
+    }
+
+    .thrill > input:checked + label:hover,
+    .thrill > input:checked + label:hover ~ label,
+    .thrill > input:checked ~ label:hover,
+    .thrill > input:checked ~ label:hover ~ label,
+    .thrill > label:hover ~ input:checked ~ label {
+        color: #c59b08;
+    }
+
+
+/*
+*{
+    margin: 0;
+    padding: 0;
+}
+*/
+.op_time {
+    height: 46px;
+}
+
+    .op_time:not(:checked) > input {
+        position: absolute; /* 별표랑 라디오버튼 겹치게 표시*/
+        top: -9999px;
+    }
+
+    .op_time:not(:checked) > label {
+        float: right;
+        width: 1em;
+        overflow: hidden;
+        white-space: nowrap;
+        cursor: pointer;
+        font-size: 30px; /* 별표 크기*/
+        color: #ccc;
+    }
+
+        .op_time:not(:checked) > label:before {
+            content: '★ ';
+        }
+
+    .op_time > input:checked ~ label {
+        color: #ffc700;
+    }
+
+    .op_time:not(:checked) > label:hover,
+    .op_time:not(:checked) > label:hover ~ label {
+        color: #deb217;
+    }
+
+    .op_time > input:checked + label:hover,
+    .op_time > input:checked + label:hover ~ label,
+    .op_time > input:checked ~ label:hover,
+    .op_time > input:checked ~ label:hover ~ label,
+    .op_time > label:hover ~ input:checked ~ label {
+        color: #c59b08;
+    }
+
+.wait {
+    height: 46px;
+}
+
+    .wait:not(:checked) > input {
+        position: absolute; /*별표랑 라디오버튼 겹치기*/
+        top: -9999px;
+    }
+
+    .wait:not(:checked) > label {
+        float: right;
+        width: 1em;
+        overflow: hidden;
+        white-space: nowrap;
+        cursor: pointer;
+        font-size: 30px;
+        color: #ccc;
+    }
+
+        .wait:not(:checked) > label:before {
+            content: '★ ';
+        }
+
+    .wait > input:checked ~ label {
+        color: #ffc700;
+    }
+
+    .wait:not(:checked) > label:hover,
+    .wait:not(:checked) > label:hover ~ label {
+        color: #deb217;
+    }
+
+    .wait > input:checked + label:hover,
+    .wait > input:checked + label:hover ~ label,
+    .wait > input:checked ~ label:hover,
+    .wait > input:checked ~ label:hover ~ label,
+    .wait > label:hover ~ input:checked ~ label {
+        color: #c59b08;
+    }
+
+/*젖음*/
+/*
+*{
+    margin: 0;
+    padding: 0;
+}
+*/
+.wet {
+    height: 46px;
+}
+
+    .wet:not(:checked) > input {
+        position: absolute; /*별표랑 라디오버튼 겹치기*/
+        top: -9999px;
+    }
+
+    .wet:not(:checked) > label {
+        float: right;
+        width: 1em;
+        overflow: hidden;
+        white-space: nowrap;
+        cursor: pointer;
+        font-size: 30px;
+        color: #ccc;
+    }
+
+        .wet:not(:checked) > label:before {
+            content: '★ ';
+        }
+
+    .wet > input:checked ~ label {
+        color: #ffc700;
+    }
+
+    .wet:not(:checked) > label:hover,
+    .wet:not(:checked) > label:hover ~ label {
+        color: #deb217;
+    }
+
+    .wet > input:checked + label:hover,
+    .wet > input:checked + label:hover ~ label,
+    .wet > input:checked ~ label:hover,
+    .wet > input:checked ~ label:hover ~ label,
+    .wet > label:hover ~ input:checked ~ label {
+        color: #c59b08;
+    }
+
+
+/*만족도*/
+/*
+*{
+    margin: 0;
+    padding: 0;
+}
+*/
+.satisfy {
+    height: 46px;
+}
+
+    .satisfy:not(:checked) > input {
+        position: absolute; /*별표랑 라디오버튼 겹치기*/
+        top: -9999px;
+    }
+
+    .satisfy:not(:checked) > label {
+        float: right;
+        width: 1em;
+        overflow: hidden;
+        white-space: nowrap;
+        cursor: pointer;
+        font-size: 30px;
+        color: #ccc;
+    }
+
+        .satisfy:not(:checked) > label:before {
+            content: '★ ';
+        }
+
+    .satisfy > input:checked ~ label {
+        color: #ffc700;
+    }
+
+    .satisfy:not(:checked) > label:hover,
+    .satisfy:not(:checked) > label:hover ~ label {
+        color: #deb217;
+    }
+
+    .satisfy > input:checked + label:hover,
+    .satisfy > input:checked + label:hover ~ label,
+    .satisfy > input:checked ~ label:hover,
+    .satisfy > input:checked ~ label:hover ~ label,
+    .satisfy > label:hover ~ input:checked ~ label {
+        color: #c59b08;
+    }
