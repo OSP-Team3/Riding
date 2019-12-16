@@ -1,0 +1,232 @@
+#wrapper {
+    width: 1000px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+
+body {
+    font-family: Aerial;
+    text-align: center;
+
+}
+
+
+.table1 {
+table-layout: fixed;               
+Width:5px;
+Height:5px;
+            }
+.main_section {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#main_header {
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    text-align: center;
+    padding: 15px;
+    width:1000px;
+}
+
+#myInfo {
+    text-align: left;
+    overflow: auto;
+    padding: 30px 0;
+}
+
+    #myInfo button {
+        background-color: gray;
+        color: white;
+        text-align: center;
+        border: none;
+    }
+
+        #myInfo button:hover {
+            background-color: darkslategray;
+        }
+
+    #myInfo img {
+        border-radius: 50%;
+        float: left;
+        margin-right: 30px;
+    }
+
+    #myInfo div {
+        padding: 10px 0;
+    }
+
+
+#myTab {
+    background-color: white;
+    width: 100%;
+    border: none;
+    float: left;
+Margin-bottom:10%;
+
+}
+
+.content {
+    background-color: white;
+    color: Black;
+    border: 1px solid darkgreen;
+    display: none;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+
+    .content select {
+        width: 100px;
+        height: 20px;
+        margin: 0px 0px 0px 15px;
+    }
+
+    .content p {
+        padding: 10px 0;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+.column {
+    background-color: white;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    overflow: hidden;
+    width: 20%;
+    height: 280px;
+}
+.column2 {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    overflow:hidden;
+}
+
+
+    .column2 img {
+        width:120px;
+        height :120px;
+        object-fit: cover;
+       
+-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+    }
+
+    .column2 p {
+        padding: 0px;
+        text-align: center;
+    }
+
+
+.column img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    /*clip:rect(0px, 10px, 10px, 0px);*/
+}
+
+    .column p {
+        padding: 0px;
+        text-align: center;
+    }
+.column1 {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    overflow:hidden;
+
+    
+}
+.column1:hover .image {
+    opacity: 0.3;
+  }
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+
+#n{
+
+ Height:19px;
+ Width: 19px;
+ Padding-top:3%;
+
+}
+
+
+  .column1:hover .middle {
+    opacity: 1;
+  }
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+   
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .middle1 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+   
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+       
+    .column1:hover {
+        border: 1px solid darkgreen;
+    }
+    .text {
+        background-color: black;
+        color: white;
+        font-size: 16px;
+        padding: 20px 20x;
+      }
+
+    .column1 img {
+        width:120px;
+        height :120px;
+        object-fit: cover;
+        /*clip:rect(0px, 10px, 10px, 0px);*/
+    }
+
+    .column1 p {
+        padding: 0px;
+        text-align: center;
+    }
+
+
+
+.tab {
+    background-color: #D8D8D8;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 17px;
+    padding: 14px 16px;
+    cursor: pointer;
+    width: 15%;
+}
+
+    .tab:hover {
+        background-color: darkseagreen;
+    }
+
+    .tab.active {
+        background-color: darkgreen;
+        color: white;
+    }
