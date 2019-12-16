@@ -1,0 +1,48 @@
+﻿#wrapper {
+    width:70%;
+    margin: 40px auto;
+    text-align: left;
+}
+
+body {
+    font-family: Aerial;
+    text-align: center;
+}
+#main_header {
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    text-align: center;
+    padding: 20px;
+    width:100%;
+}
+form {
+    float: left;
+    padding-left: 30%;
+    padding-top: 5%;
+}
+label{
+    display: block;
+    width: 30px;
+}
+input{
+    width:500px;
+    height:50px;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+button {
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    outline: none;
+    font-size:19px;
+    width:47%;
+    height:5%;
+    margin-left:5px;
+    margin-right:auto;
+}
+footer, .push{
+     height: 100px;
+}

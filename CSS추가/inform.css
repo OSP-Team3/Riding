@@ -1,0 +1,149 @@
+﻿*{ margin: 0px; padding: 0px;}
+
+header, section, footer, aside, nav, article, figure, figcaption, hgroup{ display: block; }
+
+body {
+    font-family: Aerial;
+    text-align: center;
+}
+
+#wrapper {
+    width: 70%;
+    margin: 10px auto;
+    text-align: left;
+}
+
+#main_section {
+    width: 103.5%;
+    margin: 20px auto;
+}
+
+#main_header {
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+#title_header {
+    border-top: 2px solid #516042;
+    border-bottom: 2px solid #516042;
+    margin-bottom: 20px;
+}
+#ride_name{
+    text-align:center;
+    margin-top:30px;
+    margin-bottom:20px;
+    font-size: 35px;
+}
+
+#ride_desc {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-size:20px;
+}
+
+#ride_info {
+    width: 25%;
+    margin-top: 20px;
+    margin-left: 37%;
+    margin-right: auto;
+    margin-bottom: 3%;
+    border-top: 1px solid #516042;
+    border-bottom: 1px solid #516042;
+}
+#rate{
+    width:20%;
+    margin-left:40%;
+}
+#hash_tag{
+    color:darkorange;
+    font-weight:bold;
+    padding-right:5%;
+}
+
+#media{
+    display:inline-block;
+    margin-left:20%;
+    margin-right:auto;
+
+}
+#img {
+    width: 600px;
+    margin-left:auto;
+    margin-right:auto;
+    display:inline-block;
+}
+#L_arrow, #R_arrow {
+    width: 30px;
+    display: inline-block;
+}
+#L_arrow img, #R_arrow img{
+    width: 30px;
+    height: 30px;
+    padding-bottom: 450%;
+}
+form{
+    padding-top:15px;
+    padding-left:49%;
+}
+#riding_review{
+    margin-top:5%;
+    margin-left:21%;
+    margin-right:auto;
+    margin-bottom:1%;
+    font-weight:bold;
+    color: darkgreen;
+}
+
+#review {
+    text-align:left; 
+    padding: 10px; 
+    border-bottom: 1px solid #999999;
+
+}
+#user_review {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 2px solid darkgreen;
+    overflow-y: scroll;
+}
+#user_review li {
+    width:80%;
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: 14px verdana, sans-serif;
+    margin-left:10%;
+}
+#profile {
+    float: left;
+    margin: 0px 10px auto;
+}
+#title{
+    font-weight:bold;
+    font-size:15px;
+}
+#time {
+    float: right;
+}
+#user{
+    font-size:15px;
+}
+#score{
+    text-align:center;
+    padding-left:30%;
+    font-weight:bold;
+}
+#rewrite{
+    text-align:right;
+}
+
+.mySlides{
+    padding-left:20px;
+}
+#main_footer { clear: both; text-align: center; padding: 20px; border-top: 2px solid #999999; }
