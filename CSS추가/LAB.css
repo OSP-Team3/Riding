@@ -1,5 +1,5 @@
 #wrapper {
-    width: 960px;
+    width: 1000px;
     margin: 15px auto;
     text-align: left;
 }
@@ -29,6 +29,7 @@ Height:5px;
     border: none;
     text-align: center;
     padding: 15px;
+    width:1000px;
 }
 
 #myInfo {

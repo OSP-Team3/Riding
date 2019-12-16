@@ -14,7 +14,7 @@ body {
     border: none;
     text-align: center;
     padding: 20px;
-    width:100%;
+    width: 100%;
 }
 form {
     float: left;
@@ -23,7 +23,7 @@ form {
 }
 label{
     display: block;
-    width: 30px;
+    width: 100px;
 }
 input{
     width:500px;

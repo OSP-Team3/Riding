@@ -72,7 +72,7 @@
 				</div>
 				<div id = "search">
 					<form name="form1" action="main_search.php" method="get"> 
-						<input class='auto' name="searchterm" type="text" size="75" placeholder="해시태그를 입력하세요"/>
+						<input class='auto' name="searchterm" type="text" size="55" placeholder="해시태그를 입력하세요"/>
 						<button type="submit" name="submit"> 검색</button>
 					</form>
 				</div>

@@ -1,5 +1,5 @@
 ﻿#wrapper {
-    width:70%;
+    width:1000px;
     margin: 40px auto;
     text-align: left;
 }
@@ -11,8 +11,8 @@ body {
 
 .main_section {
     float: left;
-    width: 100%;
-    height: 80%;
+    width: 1000px;
+    height: 1600px;
     margin-top: 10px;
     margin-bottom: 50px;
     margin-right: 10px;
@@ -25,7 +25,7 @@ body {
     border: none;
     text-align: center;
     padding: 20px;
-    width:100%;
+    width:1000px;
 }
 
 #menu{
